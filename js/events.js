@@ -20,8 +20,12 @@ function pressIt () {
 )}
 
 function submitIt () {
-
+$('form').submit(function SubmitForm () {
+  if ($("input:last").click()) {
+    alert ("Your form is going to be submitted now.");
+  }
 }
+)}
 
 $(document).ready(function(){
 
