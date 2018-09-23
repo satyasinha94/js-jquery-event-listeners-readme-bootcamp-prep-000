@@ -15,7 +15,7 @@ function pressIt () {
   $('input').keypress(function Press() {
   if (key.which == 71) {
     alert ("G was pressed");
-  }  
+  }
   }
 )}
 
